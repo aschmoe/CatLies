@@ -1,27 +1,27 @@
 {
-  "name": "norrisbot",
+  "name": "catliesbot",
   "version": "1.0.5",
   "description": "a Slack bot that kicks asses (roundhouse-kicks to be accurate...)",
   "keywords": [
     "Slack",
     "bot",
     "Chuck Norris",
-    "jokes"
+    "lies"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/lmammino/norrisbot"
+    "url": "https://github.com/lmammino/catliesbot"
   },
   "bugs": {
-    "url": "https://github.com/lmammino/norrisbot/issues"
+    "url": "https://github.com/lmammino/catliesbot/issues"
   },
-  "main": "lib/norrisbot.js",
+  "main": "lib/catliesbot.js",
   "bin": {
-    "norrisbot": "bin/bot.js"
+    "catliesbot": "bin/bot.js"
   },
   "scripts": {
     "start": "node bin/bot.js",
-    "test": "node_modules/.bin/xo data/jokesFetcher.js bin/bot.js lib/norrisbot.js"
+    "test": "node_modules/.bin/xo data/liesFetcher.js bin/bot.js lib/catliesbot.js"
   },
   "author": {
     "name": "Luciano Mammino",
@@ -29,7 +29,7 @@
   },
   "license": "MIT",
   "engines": {
-    "node": ">=0.10.0"
+    "node": "0.12.14"
   },
   "dependencies": {
     "async": "^1.4.1",

@@ -8,7 +8,11 @@
  * @author Luciano Mammino <lucianomammino@gmail.com>
  */
 
+<<<<<<< HEAD
+var NorrisBot = require('../lib/norrisbot');
+=======
 var LiesBot = require('../lib/catliesbot');
+>>>>>>> catlies-initial
 
 /**
  * Environment variables used to configure the bot:
@@ -22,10 +26,18 @@ var token = process.env.BOT_API_KEY || require('../token');
 var dbPath = process.env.BOT_DB_PATH;
 var name = process.env.BOT_NAME;
 
+<<<<<<< HEAD
+var norrisbot = new NorrisBot({
+=======
 var catliesbot = new LiesBot({
+>>>>>>> catlies-initial
     token: token,
     dbPath: dbPath,
     name: name
 });
 
+<<<<<<< HEAD
+norrisbot.run();
+=======
 catliesbot.run();
+>>>>>>> catlies-initial
